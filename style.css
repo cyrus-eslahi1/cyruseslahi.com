@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;  /*The font changes from regular HTML to Arial, making it easier to read*/
+    line-height: 1.6;  /*Makes each text not so cramped together.*/
+    margin: 23px;  /*Changes margin  to 23px*/
+}
+
+.copyright {
+    text-align: center;
+    margin-top: auto;
+    font-size: 90%; 
+    background-color: lightgrey; 
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    margin-top:auto;
+}
