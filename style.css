@@ -1,16 +1,37 @@
+html, body {
+    height: 100%
+}
+
 body {
     font-family: Arial, sans-serif;  /*The font changes from regular HTML to Arial, making it easier to read*/
     line-height: 1.6;  /*Makes each text not so cramped together.*/
     margin: 23px;  /*Changes margin  to 23px*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .copyright {
     text-align: center;
-    margin-top: auto;
     font-size: 90%; 
-    background-color: lightgrey; 
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-    margin-top:auto;
+    background-color: lightgrey;
+}
+
+footer {
+    margin-top: auto;
+    max-width: 100%;
+}
+
+hr {
+  border: none;
+  border-top: 1.2px solid #ccc;
+  margin: 20px 0;
+}
+
+.title {  /*Aligns the top "Cyrus Eslahi's Website" text*/
+    text-align: center;
+}
+
+.subtitle { /*Aligns the top "My first website built by myself, made 2/3/2026" text*/
+    text-align: center;
 }
