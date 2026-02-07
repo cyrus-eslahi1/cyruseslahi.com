@@ -9,6 +9,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 .copyright {
@@ -28,12 +30,23 @@ hr {
   margin: 20px 0;
 }
 
-.title {  /*Aligns the top "Cyrus Eslahi's Website" text*/
+.hero {
     text-align: center;
+    margin: 0px 0 15px;
 }
 
-.subtitle { /*Aligns the top "My first website built by myself, made 2/3/2026" text*/
-    text-align: center;
+.title {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: #666;
+    letter-spacing: 0.4px;
 }
 
 .cards {
