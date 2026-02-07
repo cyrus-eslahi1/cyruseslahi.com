@@ -35,3 +35,44 @@ hr {
 .subtitle { /*Aligns the top "My first website built by myself, made 2/3/2026" text*/
     text-align: center;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 30px;
+}
+
+.card {
+    background-color: white;
+    border: 2px solid #d4d4d4;
+    border-radius: 20px;
+    padding: 18px;
+    box-shadow: 0 5px 8px rgba(0,0,0, 0.18);
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.28);
+    transition: all 0.2s ease;
+}
+
+.card-img {
+    width: 100%;
+    height: 160px;
+    object-fit:cover;
+    border-radius:20px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card-text {
+    padding-left: 18px;
+    margin: 0;
+}
+
