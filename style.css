@@ -89,3 +89,45 @@ hr {
     margin: 0;
 }
 
+
+/*MIDDLE CARDS HERE*/
+
+.wide-card {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 22px;
+}
+
+.square-card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.wide-text {
+  flex: 1;
+}
+
+.wide-title {
+  margin: 0 0 6px 0;
+  font-size: 2rem;
+}
+
+.wide-subtitle {
+  margin: 0;
+  color: #555;
+  line-height: 1.4;
+}
